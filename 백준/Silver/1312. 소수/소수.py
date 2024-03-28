@@ -1,7 +1,7 @@
-a,b,n = map(int,input().split())
+a, b, n = map(int,input().split())
 
 for i in range(n):
-    a=(a%b)*10
-    result=a//b
+    a = (a % b) * 10
+    x = a // b
 
-print(result)
+print(x)
